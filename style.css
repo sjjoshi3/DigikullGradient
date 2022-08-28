@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    border: 2px solid olivedrab;
+    width: 98vw;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(220, 98, 98), rgb(89, 89, 162));
+}
+
+
+.first-box{
+
+   
+}
+
+.first-box-first-child , .first-box-second-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1rem;
+    width: 40vw;
+    height:35vh;
+    
+}
+.first-box-first-child{
+background: linear-gradient(135deg, orange 60%, cyan);
+}
+
+.first-box-second-child{
+    background: repeating-radial-gradient( orange 60%, cyan);
+}
+
+
+.second-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient( orange 60%, cyan);
+    width: 40vw;
+    height:45vh;
+    position: relative;
+    left: 25rem;
+    
+}
+
+
